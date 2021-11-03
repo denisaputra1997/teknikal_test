@@ -1,6 +1,6 @@
 /**
  * Direction:
- * 
+ * Return a formatted array of sessions with list of classes & students
  * 
  * Expected Result:
  * [

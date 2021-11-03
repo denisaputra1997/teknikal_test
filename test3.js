@@ -14,7 +14,14 @@ const data = [
 ];
 
 function result(data) {
-    // Your Code Here
+    const cleannedArray = [];
+    data.forEach((val) => {
+        if (val !== null && typeof val !== "undefined") {
+            cleannedArray.push(val);
+        }
+    });
+
+    return cleannedArray;
 }
 
 console.log(result(data));
